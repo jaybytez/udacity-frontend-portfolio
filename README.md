@@ -11,6 +11,6 @@ The portfolio project can be clone from here:
 The project can be run within a modern web browser and text editor for editing, no additional software is required for this project.
 
 ## How To Use This Repository
-- Clone this repository 'git clone https://github.com/jaybytez/udacity-frontend-portfolio.git'.
+- Clone this repository `git clone https://github.com/jaybytez/udacity-frontend-portfolio.git`.
 - Open `index.html` in a browser.
 - Or edit within your text editor.
