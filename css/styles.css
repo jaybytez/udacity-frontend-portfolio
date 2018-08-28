@@ -1,51 +1,28 @@
-:root {
-  --jumbotron-padding-y: 3rem;
-}
-
 .jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-bottom: 0;
   background-color: #fff;
-
   background-image: url('../img/portfolio.png');
-  background-position: 0% 25%;
-  background-size: 40%;
+  background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
-
-
-@media (max-width: 1180px) {
-  .jumbotron {
-    background-size: 35%;
-  }
-}  
-
-@media (max-width: 1180px) {
-  .jumbotron {
-    background-size: 30%;
-  }
-}  
-
-@media (max-width: 850px) {
-  .jumbotron {
-    background-size: 25%;
-  }
-}  
-
-@media (max-width: 800px) {
-  .jumbotron {
-    background: none;
-  }
-}  
 
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
 .jumbotron-heading {
-  font-weight: 300;
+  font-weight: 700;
+  color: white;
 }
+
+@media (max-width: 625px) {
+  .jumbotron-heading {
+    font-size: 5.9vw;
+  }
+}  
 
 .jumbotron .container {
   max-width: 40rem;
